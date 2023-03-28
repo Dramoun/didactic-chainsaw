@@ -1,0 +1,6 @@
+name: custom action
+description: testing
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v3
