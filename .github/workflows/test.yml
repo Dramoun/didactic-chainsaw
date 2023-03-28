@@ -1,0 +1,7 @@
+name: caller
+on: workflow_dispatch
+jobs:
+  call_action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'your mom'
